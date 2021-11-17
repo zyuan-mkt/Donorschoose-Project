@@ -27,31 +27,33 @@ Math and RLA (Reading Language Arts) scores were standardized to
 
 ### Word Clouds of Rich Schools versus Poor Schools
 
-***Overall***
+***Overall: Test Loss: 0.469 | Test Acc: 80.00%***
+![](./figures/pov.png)
+
+***Pre-Covid: Test Loss: 0.486 | Test Acc: 79.29%***
+![](./figures/precovid.png)
+
+***Post-Covid: Test Loss: 0.540 | Test Acc: 71.42%***
+![](./figures/postcovid.png)
+
+***Entertainment: Test Loss: 0.470 | Test Acc: 78.75%***
+![](./figures/ent.png)
 
 
-***Pre-Covid***
+***Technology: Test Loss: 0.496 | Test Acc: 77.94%***
+![](./figures/tech.png)
 
 
-***Post-Covid***
+***Supplies: Test Loss: 0.471 | Test Acc: 77.94%***
+![](./figures/sup.png)
 
 
-***Entertainment***
+***Visits: Test Loss: 0.460 | Test Acc: 77.75%***
+![](./figures/vis.png)
 
 
-***Technology***
-
-
-
-***Supplies***
-
-
-
-***Visits***
-
-
-
-***Arts***
+***Arts: Test Loss: 0.498 | Test Acc: 77.98%***
+![](./figures/art.png)
 
 
 
