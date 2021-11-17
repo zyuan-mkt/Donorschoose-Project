@@ -58,20 +58,20 @@ Math and RLA (Reading Language Arts) scores were standardized to
 ![](./figures/art.png)
 
 
-***PreK - 2: Test Loss: 0.490 | Test Acc: 78.35%***
+***PreK - 2: Test Loss: 0.453 | Test Acc: 81.35%***
+![](./figures/prek-2.png)
 
 
-
-***Grade 3 - 5: Test Loss: 0.487 | Test Acc: 78.48%***
-
-
-
-***Grade 6 - 8: Test Loss: 0.460 | Test Acc: 77.75%***
+***Grade 3 - 5: Test Loss: 0.558 | Test Acc: 71.33%***
+![](./figures/3-5.png)
 
 
+***Grade 6 - 8: Test Loss: 0.598 | Test Acc: 67.77%***
+![](./figures/6-8.png)
 
-***Grade 9 - 12: Test Loss: 0.498 | Test Acc: 77.98%***
 
+***Grade 9 - 12: Test Loss: 0.516 | Test Acc: 76.77%***
+![](./figures/9-12.png)
 
 ***Male: Test Loss: 0.363 | Test Acc: 85.21%***
 ![](./figures/male.png)
