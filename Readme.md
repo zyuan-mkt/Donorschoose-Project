@@ -2,7 +2,7 @@
 
 The difference in Academic Performance between Rich and Poor Schools
 
-- ***Scores of High Poverty versus Low Poverty***
+- ***Math and RLA Scores of High Poverty versus Low Poverty***
 <p align="center">
   <img src="/figures/high_poverty.png" width="450" title="hover text">
   <img src="/figures/low_poverty.png" width="450" alt="accessibility text">
