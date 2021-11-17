@@ -1,6 +1,6 @@
 ## Stanford Data
 
-The difference in Academic Performance between Rich and Poor Schools
+### The Academic Performance of Rich and Poor Schools
 
 - ***Math and RLA Scores of High Poverty versus Low Poverty***
 <p align="center">
