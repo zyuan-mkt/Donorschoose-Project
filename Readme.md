@@ -4,6 +4,8 @@
 
 It seems that Stanford data only report the public schools.
 
+There are 52316 schools in the original DonorsChoose dataset (with school id), and 89350 schools in the Stanford dataset. After merging these two, we have 40417 schools in common.
+
 Math and RLA (Reading Language Arts) scores were standardized to 
 
 - ***Math and RLA Scores of High Poverty versus Low Poverty***
@@ -54,6 +56,31 @@ Math and RLA (Reading Language Arts) scores were standardized to
 
 ***Arts: Test Loss: 0.498 | Test Acc: 77.98%***
 ![](./figures/art.png)
+
+
+***PreK - 2: Test Loss: 0.490 | Test Acc: 78.35%***
+
+
+
+***Grade 3 - 5: Test Loss: 0.487 | Test Acc: 78.48%***
+
+
+
+***Grade 6 - 8: Test Loss: 0.460 | Test Acc: 77.75%***
+
+
+
+***Grade 9 - 12: Test Loss: 0.498 | Test Acc: 77.98%***
+
+
+***Male: Test Loss: 0.363 | Test Acc: 85.21%***
+![](./figures/male.png)
+
+***Female: Test Loss: 0.468 | Test Acc: 81.58%***
+![](./figures/female.png)
+
+
+
 
 
 
