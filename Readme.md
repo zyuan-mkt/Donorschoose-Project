@@ -7,8 +7,7 @@ It seems that Stanford data only report the public schools.
 There are 52316 schools in the original DonorsChoose dataset (with school id), and 89350 schools in the Stanford dataset. After merging these two, we have 40417 schools in common.
 
 Math and RLA (Reading Language Arts) scores were standardized with mean -0.0458 and standard deviation 0.446. The difference in Math and RLA score was standardized
-to -0.00507 and standard deviation 0.146.
-
+to -0.00507 and standard deviation 0.146. However, math and rla scores could hardly explain the number of posts by states.
 - ***Math and RLA Scores Across States***
 <p align="center">
   <img src="/figures/state_scores.png" width="450" title="hover text">
