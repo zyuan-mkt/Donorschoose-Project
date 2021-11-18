@@ -91,6 +91,20 @@ to -0.00507 and standard deviation 0.146. However, math and rla scores could har
 ![](./figures/female.png)
 
 
+### Next I collected the projects related to math and literacy from grade 3 - 8 in the five states respectively with highest and lowest scores. I found that the algorithm is better at predicting rich and poor in high-score states
+
+***Low RLA: Test Loss: 0.556 | Test Acc: 68.79%***
+![](./figures/low_rla.png)
+
+***High RLA: Test Loss: 0.350 | Test Acc: 84.52%***
+![](./figures/high_rla.png)
+
+***Low Math: Test Loss: 0.492 | Test Acc: 74.53%***
+![](./figures/low_math.png)
+
+***High Math: Test Loss: 0.306 | Test Acc: 86.40%***
+![](./figures/high_math.png)
+
 
 
 
