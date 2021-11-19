@@ -106,6 +106,24 @@ to -0.00507 and standard deviation 0.146. However, math and rla scores could har
 ![](./figures/high_math.png)
 
 
+### Difference in Difference 
+
+```DID = (math_{rich}-math_{poor}) - (rla_{rich}-rla_{poor})```
+
+
+***Big Difference RLA: Test Loss: 0.422 | Test Acc: 80.43%***
+![](./figures/small_diff_rla.png)
+
+***Big Difference RLA: Test Loss: 0.471 | Test Acc: 77.67%***
+![](./figures/small_diff_math.png)
+
+***Small Difference Math: Test Loss: 0.362 | Test Acc: 85.29%***
+![](./figures/big_diff_rla.png)
+
+***Big Difference Math: Test Loss: 0.464 | Test Acc: 78.76%***
+![](./figures/big_diff_math.png)
+
+
 
 
 
