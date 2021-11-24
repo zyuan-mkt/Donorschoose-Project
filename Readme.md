@@ -48,7 +48,7 @@ to -0.00507 and standard deviation 0.146. However, math and rla scores could har
 </p>
 
 
-- ***Price per Project***
+- ***Poverty Level (continuous)***
 - `perfrl ~ 1 + SUBJECT + LEVEL + ln + lp + ls + cs_mn_avg_ol + lw + ave_sentiment + Average_Grade_Level`
 - where lw: log ave number of words, ave_sentiment: average sentiment ofthe projects, Average_Grade_Level: readibility level (high means more difficult)
 <p align="center">
