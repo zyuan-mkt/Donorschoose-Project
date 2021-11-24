@@ -1,5 +1,9 @@
 # DonorsChoose Data
 
+## Schools
+
+## Projects 
+
 ### Description Table
 |   | GRADE     | SUBJECT  | projects_0.0 | projects_1.0 | Classification    | price_0.0 | price_1.0 | students_0.0 | students_1.0 | projects_ratio | price_ratio | students_ratio |
 |---|-----------|----------|--------------|--------------|--------------|-----------|-----------|--------------|--------------|----------------|-------------|----------------|
