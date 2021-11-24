@@ -23,3 +23,38 @@ to -0.00507 and standard deviation 0.146. However, math and rla scores could har
 | 6 | Secondary | Language | 3954         | 43889        |    82.50%      |628.36    | 643.47    | 168.95       | 134.89       | 11.1           | 1.02        | 0.8            |
 | 7 | Secondary | Science  | 6547         | 55449        |    79.10%      |1030.85   | 814.34    | 158.4        | 133.78       | 8.47           | 0.79        | 0.84           | 
 | 8 | Secondary | Others   | 5589         | 65247        |    77.94%        |951.69    | 849.77    | 164.16       | 159.68       | 11.67          | 0.89        | 0.97           |
+
+### Regressions
+- ***Number of Projects***
+- `ln ~ 1 + SUBJECT + LEVEL + perfrl + cs_mn_avg_ol`
+- where ln: log number of projects, perfrl: free or reduced lunch ratio, cs_mn_avg_ol: average rla and math grades
+<p align="center">
+<img src="/figures/reg1.png" width="800" title="hover text">
+</p>
+
+- ***Price per Project***
+- `lp ~ 1 + SUBJECT + LEVEL + perfrl + ls + cs_mn_avg_ol`
+- where lp: log ave price of projects, ls: log ave number of students involved
+<p align="center">
+<img src="/figures/reg2.png" width="800" title="hover text">
+</p>
+
+
+
+- ***Number of Students per Project***
+- `ls ~ 1 + SUBJECT + LEVEL + lp + perfrl + cs_mn_avg_ol`
+<p align="center">
+<img src="/figures/reg3.png" width="800" title="hover text">
+</p>
+
+
+- ***Price per Project***
+- `perfrl ~ 1 + SUBJECT + LEVEL + ln + lp + ls + cs_mn_avg_ol + lw + ave_sentiment + Average_Grade_Level`
+- where lw: log ave number of words, ave_sentiment: average sentiment ofthe projects, Average_Grade_Level: readibility level (high means more difficult)
+<p align="center">
+<img src="/figures/reg4.png" width="800" title="hover text">
+</p>
+
+
+
+
