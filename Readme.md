@@ -53,6 +53,73 @@ to -0.00507 and standard deviation 0.146. However, math and rla scores could har
 | 8 | Others   | Secondary | 11292        | 1121        |  NA | 859.5557952532765  | 991.54409455843    | 141.64895501239815 | 165.5834076717217  |
 
 
+### WordClouds for All
+***Language Projects in PreK Schools***
+![](./figures/prek_lan.png)
+
+***Science Projects in PreK Schools***
+![](./figures/prek_sci.png)
+
+***Other Projects in PreK Schools***
+![](./figures/prek_oth.png)
+
+***Language Projects In Primary Schools***
+![](./figures/pri_lan.png)
+
+***Science Projects In Primary Schools***
+![](./figures/pri_sci.png)
+
+***Other Projects In Primary Schools***
+![](./figures/pri_oth.png)
+
+***Language Projects In Secondary Schools***
+![](./figures/sec_lan.png)
+
+***Science Projects In Secondary Schools***
+![](./figures/sec_sci.png)
+
+***Other Projects In Secondary Schools***
+![](./figures/sec_oth.png)
+
+
+### WordClouds for States with Small Education Gap
+***Language Projects in PreK Schools***
+![](./figures/lan_pre_s.png)
+
+***Science Projects in PreK Schools***
+![](./figures/sci_pre_s.png)
+
+***Other Projects in PreK Schools***
+![](./figures/oth_pre_s.png)
+
+***Language Projects In Primary Schools***
+![](./figures/lan_pri_s.png)
+
+***Science Projects In Primary Schools***
+![](./figures/sci_pri_s.png)
+
+***Other Projects In Primary Schools***
+![](./figures/oth_pri_s.png)
+
+### WordClouds for States with Big Education Gap
+***Language Projects in PreK Schools***
+![](./figures/lan_pre_b.png)
+
+***Science Projects in PreK Schools***
+![](./figures/sci_pre_b.png)
+
+***Other Projects in PreK Schools***
+![](./figures/oth_pre_b.png)
+
+***Language Projects In Primary Schools***
+![](./figures/lan_pri_b.png)
+
+***Science Projects In Primary Schools***
+![](./figures/sci_pri_b.png)
+
+***Other Projects In Primary Schools***
+![](./figures/oth_pri_b.png)
+
 
 
 ### Regressions
