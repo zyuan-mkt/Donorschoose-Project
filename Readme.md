@@ -53,6 +53,30 @@ to -0.00507 and standard deviation 0.146. However, math and rla scores could har
 | 8 | Others   | Secondary | 11292        | 1121        |  NA | 859.5557952532765  | 991.54409455843    | 141.64895501239815 | 165.5834076717217  |
 
 
+### Some Findings
+
+***Overall***
+
+The accuracy of states with small education gap is lower than that of states with big education gap. And the overall lies between.
+
+***['pos_sec','pos_pri','pos_prek','neg_sec','neg_pri','neg_prek']***
+
+Positive words: language>science>others; prek>primary>secondary
+
+***['neg_pre_b', 'neg_pre_s','neg_pri_b','neg_pri_s','pos_pre_b', 'pos_pre_s','pos_pri_b', 'pos_pri_s']***
+
+Rich schools in states with small education difference have more positive words than those with big education difference. For poor schools, there is no systematic variation.
+
+***['prek_lan', 'prek_sci','prek_oth','pri_lan', 'pri_sci', 'pri_oth','sec_lan', 'sec_sci', 'sec_oth']***
+Nothing interesting
+
+***['lan_pre_s', 'sci_pre_s', 'oth_pre_s','lan_pri_s', 'sci_pri_s', 'oth_pri_s', \
+'lan_pre_b', 'sci_pre_b','oth_pre_b', 'lan_pri_b', 'sci_pri_b', 'oth_pri_b']***
+
+For small difference states, poor schools use more nouns, less adjectives, less adverb, and less verb than rich schools.
+For rich difference states, poor schools use less nouns, less adjectives, less adverb, and less verb than rich schools.
+
+
 ### WordClouds for All
 ***Language Projects in PreK Schools***
 ![](./figures/prek_lan.png)
