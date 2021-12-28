@@ -11,3 +11,24 @@
 ### Rich Public School Distribution in US: 16360 poor schools with coordinates
 
 ![](figures/rich.png)
+
+### Free or Reduced Price Lunch 
+
+![](figures/frl.png)
+
+### Median Income
+
+![](figures/inc.png)
+
+### Test Scores
+
+![](figures/scores.png)
+
+### Difference
+
+![](figures/dif.png)
+
+
+### Gap
+
+![](figures/gap.png)
