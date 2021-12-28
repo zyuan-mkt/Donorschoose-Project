@@ -148,7 +148,7 @@ to -0.00507 and standard deviation 0.146. However, math and rla scores could har
 
 ### CNN Classification
 You can find the code at [this page](CNN_Wordcloud.ipynb).
-
+You can find the results at [this page](wordcloud.md).
 ### BERT Sentence Classification
 Work in progress.
 
