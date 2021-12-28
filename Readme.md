@@ -57,17 +57,15 @@ The academic performance includes mathematics and Reading Language Arts (RLA) te
 
 #### Visualizations
 
-***Public School Distribution in US***\
-There are 69280 schools with coordinates.
+***Public School Distribution in US***: 69280 schools with coordinates\
+
 
 ![](figures/dis.png)
 
-***Poor Public School Distribution in US***\
-There are 12149 poor schools with coordinates. 
+***Poor Public School Distribution in US***: 12149 poor schools with coordinates\ 
 ![](figures/poor.png)
 
-***Rich Public School Distribution in US***\
-There are 16360 poor schools with coordinates. 
+***Rich Public School Distribution in US***: 16360 poor schools with coordinates\ 
 
 ![](figures/rich.png)
 
