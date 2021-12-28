@@ -35,7 +35,7 @@ We use data from the Stanford Education Data Archive (SEDA) to measure the educa
 
 SEDA includes 82357 Public Elementary/Secondary Schools in the US. The table below reports number of schools in the nine divisions defined by United States Census Bureau.
 
-| Division           | Num of Schools         | High | Medium-high | Medium-low | Low |
+| Division           | Num of Schools         | High Poverty| Medium-high Poverty | Medium-low Poverty | Low Poverty |
 |--------------------|--------------------|-----------------|------------------------|-----------------------|----------------|
 | East North Central | 13180              | 2422            | 2743                   | 4837                  | 3178           |
 | South Atlantic     | 12492              | 2853            | 3927                   | 3630                  | 2082           |  
