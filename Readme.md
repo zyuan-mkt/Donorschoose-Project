@@ -67,7 +67,7 @@ See the graphs [here](seda-vis.md).
 
 DonorsChoose.org is an online fundraising platform for public teachers to post projects and receive donations. Since 2000, more than 660 thousand teachers and 2 million got funded. Until now, teachers at 86% of public schools have posted a project on DonorsChoose. However, DonorsChoose no longer shares NCESID of schools to external researchers in recent yearly issues, and these school-level attributes were accessible before 2015.
 
-For the data cleaning, we re-categorize the grade level to PreK-2, Primary, and Secondary, and subject to Language, Science and Others. The details are in the section below.
+Our focus is on the project essays posted by teachers other than the donations. For the data cleaning, we re-categorize the projects to grade level of PreK-2, Primary, and Secondary, and subject of Language, Science and Others. The details are in the section below.
 
 
 #### Project Summary
