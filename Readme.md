@@ -102,7 +102,7 @@ to -0.00507 and standard deviation 0.146. However, math and rla scores could har
 | Science  | Secondary | 10032        | 911         |   774.22 | 1044.56| 142 | 166  |
 | Others   | Secondary | 11362        | 1062        |   935.18  | 1060.83 | 143  | 164  |
 
-### Project Description of Ten States with Smallest Education Gap between Poor and Rich Schools
+***Project Description of Ten States with Smallest Education Gap between Poor and Rich Schools***
 
 | Grade     | Subject  | Projects (Rich) | Projects (Poor) | Avg. Price (Rich) | Avg. Price (Poor)  | Avg. Num Students (Rich) | Avg. Num Students (Poor)|
 |----------|--------------|-------------|-------------|--------------------|--------------------|--------------------|--------------------|
