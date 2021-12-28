@@ -32,7 +32,8 @@ This is the GitHub repository for Vishal Singh, Jeremy Yang and Zhen Yuan's pape
 #### Description
 We use data from the Stanford Education Data Archive (SEDA) to measure the educational and economic gaps between rich schools and poor schools across the US. SEDA contains data about test scores for schools, geographically defined school districts, counties, commuting zones, metropolitan statistical areas, and states. The data spans from 3rd to 8th grade and from 2008-09 to 2017-18 school years. Besides, it also provides information of socioeconomic, demographic, and segregation characteristics of schools, districts, counties, metropolitan areas, and states. The school is uniquely identified by the 12-digit NCES school ID (ncessch), which is used to link the DonorsChoose data. 
 
-There are 82357 schools
+
+SEDA includes 82357 Public Elementary/Secondary Schools in the US. The table below reports number of schools in the nine divisions defined by United States Census Bureau.
 
 | Division           | Num of Schools         | High | Medium-high | Medium-low | Low |
 |--------------------|--------------------|-----------------|------------------------|-----------------------|----------------|
@@ -47,16 +48,6 @@ There are 82357 schools
 | New England        | 3876               | 328             | 615                    | 1220                  | 171            |      
 
 
-
- 
-
-
-
-It seems that Stanford data only report the public schools. However, since this dataset does not include kindergardens, there were 50,000 rows of "prek-2" observations dropped. Stanford report of the grade level is different to that of Donorschoose. Then we consider standardize the level: elementary, middle, and high.
-
-There are 52316 schools in the original DonorsChoose dataset (with school id), and 89350 schools in the Stanford dataset. After merging these two, we have 40417 schools in common.
-
-
 #### Covariates
 
 The school level income & poverty measure we use is the free or reduced-price lunch (FRPL) ratio of students. Low-poverty schools are defined as public schools where 25.0 percent or less of the students are eligible for FRPL; mid-low poverty schools are those where 25.1 to 50.0 percent of the students are eligible for FRPL; mid-high poverty schools are those where 50.1 to 75.0 percent of the students are eligible for FRPL; and high-poverty schools are those where more than 75.0 percent of the students are eligible for FRPL.
@@ -67,19 +58,20 @@ The academic performance includes mathematics and Reading Language Arts (RLA) te
 #### Visualizations
 
 ***Public School Distribution in US***\
-There are 69280 schools with coordinates. The ten states with most public schools are California (6933), Texas (6260), Florida (3269), Illinois (3049), Pennsylvania (2686), New York (2595), Ohio (2537), Michigan (2054), Washington (1815), and Virginia (1814).
+There are 69280 schools with coordinates.
 
 ![](figures/dis.png)
 
 ***Poor Public School Distribution in US***\
-There are 12149 poor schools with coordinates. The ten states with most public schools are California (1573), Texas (1147), Illinois (704), Florida (692), Georgia (534), North Carolina (441), Pennsylvania (417), Ohio (398), Louisiana (391), and Mississippi (349).<!-- PR	1219 not visible on plotly -->
-
+There are 12149 poor schools with coordinates. 
 ![](figures/poor.png)
 
 ***Rich Public School Distribution in US***\
-There are 16360 poor schools with coordinates. The ten states with most public schools are California (1438), New York (1108), Texas (999), New Jersey (853), Pennsylvania (852), Illinois (2595), Massachusetts (673), Ohio (654), Virginia (578), Wisconsin (571).
+There are 16360 poor schools with coordinates. 
 
 ![](figures/rich.png)
+
+
 
 ### DonorsChoose Data
 
