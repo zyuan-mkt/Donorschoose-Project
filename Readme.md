@@ -65,15 +65,12 @@ See the graphs [here](seda-vis.md).
 
 #### Description
 
+DonorsChoose.org is an online fundraising platform for public teachers to post projects and receive donations. Since 2000, more than 660 thousand teachers and 2 million got funded. Until now, teachers at 86% of public schools have posted a project on DonorsChoose. However, DonorsChoose no longer shares NCESID of schools to external researchers in recent yearly issues, and these school-level attributes were accessible before 2015.
 
-It seems that Stanford data only report the public schools. However, since this dataset does not include kindergardens, there were 50,000 rows of "prek-2" observations dropped. Stanford report of the grade level is different to that of Donorschoose. Then we consider standardize the level: elementary, middle, and high.
+For the data cleaning, we re-categorize the grade level to PreK-2, Primary, and Secondary, and subject to Language, Science and Others. The details are in the section below.
 
-There are 52316 schools in the original DonorsChoose dataset (with school id), and 89350 schools in the Stanford dataset. After merging these two, we have 40417 schools in common.
 
-Math and RLA (Reading Language Arts) scores were standardized with mean -0.0458 and standard deviation 0.446. The difference in Math and RLA score was standardized
-to -0.00507 and standard deviation 0.146. However, math and rla scores could hardly explain the number of posts by states.
-
-#### Projects 
+#### Project Summary
 
 ***Description Table***
 | Grade     | Subject  | Projects (Rich) | Projects (Poor) | Avg. Price (Rich) | Avg. Price (Poor)  | Avg. Num Students (Rich) | Avg. Num Students (Poor)|
