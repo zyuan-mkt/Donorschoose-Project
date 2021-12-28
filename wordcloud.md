@@ -1,5 +1,5 @@
-## CNN WordClouds
 
+<!-- 
 ***Overall***
 
 The accuracy of states with small education gap is lower than that of states with big education gap. And the overall lies between.
@@ -19,35 +19,36 @@ Nothing interesting
 'lan_pre_b', 'sci_pre_b','oth_pre_b', 'lan_pri_b', 'sci_pri_b', 'oth_pri_b']***
 
 For small difference states, poor schools use more nouns, less adjectives, less adverb, and less verb than rich schools.
-For rich difference states, poor schools use less nouns, less adjectives, less adverb, and less verb than rich schools.
+For rich difference states, poor schools use less nouns, less adjectives, less adverb, and less verb than rich schools. -->
 
 
-### WordClouds for All
-***Language Projects in PreK Schools***
+## WordClouds for Overall 
+
+### Language Projects in PreK Schools
 ![](./figures/prek_lan.png)
 
-***Science Projects in PreK Schools***
+### Science Projects in PreK Schools
 ![](./figures/prek_sci.png)
 
-***Other Projects in PreK Schools***
+### Other Projects in PreK Schools
 ![](./figures/prek_oth.png)
 
-***Language Projects In Primary Schools***
+### Language Projects In Primary Schools
 ![](./figures/pri_lan.png)
 
-***Science Projects In Primary Schools***
+### Science Projects In Primary Schools
 ![](./figures/pri_sci.png)
 
-***Other Projects In Primary Schools***
+### Other Projects In Primary Schools
 ![](./figures/pri_oth.png)
 
-***Language Projects In Secondary Schools***
+### Language Projects In Secondary Schools
 ![](./figures/sec_lan.png)
 
-***Science Projects In Secondary Schools***
+### Science Projects In Secondary Schools
 ![](./figures/sec_sci.png)
 
-***Other Projects In Secondary Schools***
+### Other Projects In Secondary Schools
 ![](./figures/sec_oth.png)
 
 
@@ -70,22 +71,22 @@ For rich difference states, poor schools use less nouns, less adjectives, less a
 ***Other Projects In Primary Schools***
 ![](./figures/oth_pri_s.png)
 
-### WordClouds for States with Big Education Gap
-***Language Projects in PreK Schools***
+## WordClouds for States with Big Education Gap
+### Language Projects in PreK Schools
 ![](./figures/lan_pre_b.png)
 
-***Science Projects in PreK Schools***
+### Science Projects in PreK Schools
 ![](./figures/sci_pre_b.png)
 
-***Other Projects in PreK Schools***
+### Other Projects in PreK Schools
 ![](./figures/oth_pre_b.png)
 
-***Language Projects In Primary Schools***
+### Language Projects In Primary Schools
 ![](./figures/lan_pri_b.png)
 
-***Science Projects In Primary Schools***
+### Science Projects In Primary Schools
 ![](./figures/sci_pri_b.png)
 
-***Other Projects In Primary Schools***
+### Other Projects In Primary Schools
 ![](./figures/oth_pri_b.png)
 
