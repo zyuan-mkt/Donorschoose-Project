@@ -25,15 +25,17 @@
 
 ![](figures/inc.png)
 
-### Test Scores
+###  Standardized Mathematics and Reading Language Arts (RLA) Test Scores
+***The 5 states with highest test scores are Massachusetts, New Hampshire, New Jersey, Vermont, and Wyoming, while the 5 states with test scores are Alaska, New Mexico, Mississippi, Louisiana, and Washington DC. (from high to low)***
 
 ![](figures/scores.png)
 
-### Difference
+### Average Difference between Mathematics and Reading Language Arts (RLA) Test Scores
+***The 5 states with biggest difference in test scores (absolute value) are Alabama, Minnesota, Alaska, Texas, and Connecticut, while the 5 states with smallest difference in test scores are Nevada, Ohio, South Carolina, Utah, and Virginia. (from high to low)***
 
 ![](figures/dif.png)
 
 
-### Gap
-
+### Education Gap within State (Test Scores Difference between Rich and Poor Schools)
+***The 5 states with biggest education gap are Wisconsin, Louisiana, Connecticut, Alaska, and Maryland, while the 5 states with smallest education gap are Hawaii, Texas, Florida, Virginia, and Nevada. (from high to low)***
 ![](figures/gap.png)
