@@ -15,12 +15,13 @@
 
 ![](figures/rich.png)
 
-### Free or Reduced Price Lunch
-***a***
+### State Average Free or Reduced-Price Lunch (FRL) Ratio
+***The 5 states with highest FRL ratio (excluding Puerto Rico) are Washington DC (77.04%), Mississippi (73.39%), New Mexico (71.43%), Louisiana (66.98%) and Oklahoma (63.17%), while the 5 states with lowest FRL ratio are Connecticut (36.03%), New Jersey (35.86%), Massachusetts (35.86%), North Dakota (33.39%), New Hampshire (27.56%).***
 
 ![](figures/frl.png)
 
-### Median Income
+### State Median Income (2005-2018 Average)
+***The 5 states with highest median income are Maryland ($73,700), New Jersey ($72,195), Hawaii ($70,765), Connecticut ($69,843), and Alaska ($69,777), while the 5 states with lowest median income (excluding Puerto Rico) are Kentucky ($43,643), Alabama ($43,603), Arkansas ($41,190), West Virginia ($40,363), and Mississippi ($39,191).***
 
 ![](figures/inc.png)
 
