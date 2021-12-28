@@ -1,3 +1,136 @@
+# Socioeconomics and Writing Styles
+
+<!-- [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/) [![Website](https://img.shields.io/badge/View-Website-blue)](https://sample-project.s3-web.us-east.cloud-object-storage.appdomain.cloud/) -->
+
+This is the GitHub repository for Vishal Singh, Jeremy Yang and Zhen Yuan's paper Socioeconomics & Writing Styles: An analysis of US Public School Teachers. The draft is still in preparation. If you have any comments or questions, please contact [Zhen Yuan](https://www.yuan-zhen.com/).
+
+<!-- > If you're new to open source, please consider taking the [free "Introduction to Open Source" class](https://cognitiveclass.ai/courses/introduction-to-open-source). -->
+> 
+<!-- > [![Open Source Foundations](images/open-source-foundations.png)](https://cognitiveclass.ai/courses/introduction-to-open-source) -->
+
+<!-- _Read this in other languages: [English](README.md), [한국어](./docs/README.ko.md), [português](./docs/README.pt_br.md)._ -->
+
+## Contents
+
+- [Socioeconomics and Writing Styles](#socioeconomics-and-writing-styles)
+  - [Contents](#contents)
+  - [Introduction](#introduction)
+  - [Data](#data)
+    - [SEDA Data](#seda-data)
+    - [DonorsChoose Data](#donorschoose-data)
+  - [Structured Analysis](#structured-analysis)
+  - [Unstructured Analysis](#unstructured-analysis)
+    - [CNN Classification](#cnn-classification)
+    - [BERT Sentence Classification](#bert-sentence-classification)
+  - [Authors](#authors)
+  - [Acknowledgments](#acknowledgments)
+## Introduction
+
+## Data
+### SEDA Data
+
+#### Description
+We use data from the Stanford Education Data Archive (SEDA) to measure the educational and economic gaps between rich schools and poor schools across the US. SEDA contains data about test scores for schools, geographically defined school districts, counties, commuting zones, metropolitan statistical areas, and states. The data spans from 3rd to 8th grade and from 2008-09 to 2017-18 school years. Besides, it also provides information of socioeconomic, demographic, and segregation characteristics of schools, districts, counties, metropolitan areas, and states. The school is uniquely identified by the 12-digit NCES school ID (ncessch), which is used to link the DonorsChoose data. 
+
+There are 82357 schools
+
+| Division           | Num of Schools         | High | Medium-high | Medium-low | Low |
+|--------------------|--------------------|-----------------|------------------------|-----------------------|----------------|
+| East North Central | 13180              | 2422            | 2743                   | 4837                  | 3178           |
+| South Atlantic     | 12492              | 2853            | 3927                   | 3630                  | 2082           |  
+| Pacific            | 12109              | 2322            | 3786                   | 3350                  | 2651           |  
+| West South Central | 11027              | 2564            | 4037                   | 3081                  | 1345           |
+| Middle Atlantic    | 8578               | 1517            | 1517                   | 2542                  | 3002           |  
+| West North Central | 8084               | 789             | 1320                   | 3467                  | 2508           |
+| Mountain           | 7016               | 968             | 1605                   | 2531                  | 1912           |   
+| East South Central | 4698               | 1136            | 1823                   | 1362                  | 377            | 
+| New England        | 3876               | 328             | 615                    | 1220                  | 171            |      
+
+
+
+ 
+
+
+
+It seems that Stanford data only report the public schools. However, since this dataset does not include kindergardens, there were 50,000 rows of "prek-2" observations dropped. Stanford report of the grade level is different to that of Donorschoose. Then we consider standardize the level: elementary, middle, and high.
+
+There are 52316 schools in the original DonorsChoose dataset (with school id), and 89350 schools in the Stanford dataset. After merging these two, we have 40417 schools in common.
+
+
+#### Covariates
+
+The school level income & poverty measure we use is the free or reduced-price lunch (FRPL) ratio of students. Low-poverty schools are defined as public schools where 25.0 percent or less of the students are eligible for FRPL; mid-low poverty schools are those where 25.1 to 50.0 percent of the students are eligible for FRPL; mid-high poverty schools are those where 50.1 to 75.0 percent of the students are eligible for FRPL; and high-poverty schools are those where more than 75.0 percent of the students are eligible for FRPL.
+
+The academic performance includes mathematics and Reading Language Arts (RLA) tests. States have the flexibility to select or design a test of their choice that measures student achievement relative to the state’s standards. Meanwhile, they set their own benchmarks or threshold for the levels of performance. For the purpose of national comparable scales, the test scores were estimated and standardized for each subgroup in each unit (schools, geographic school districts, counties, metropolitan areas, commuting zones, or states) across subjects, grades, and years. 
+
+
+#### Visualizations
+
+***Public School Distribution in US***\
+There are 69280 schools with coordinates. The ten states with most public schools are California (6933), Texas (6260), Florida (3269), Illinois (3049), Pennsylvania (2686), New York (2595), Ohio (2537), Michigan (2054), Washington (1815), and Virginia (1814).
+
+![](figures/dis.png)
+
+***Poor Public School Distribution in US***\
+There are 12149 poor schools with coordinates. The ten states with most public schools are California (1573), Texas (1147), Illinois (704), Florida (692), Georgia (534), North Carolina (441), Pennsylvania (417), Ohio (398), Louisiana (391), and Mississippi (349).<!-- PR	1219 not visible on plotly -->
+
+![](figures/poor.png)
+
+***Rich Public School Distribution in US***\
+There are 16360 poor schools with coordinates. The ten states with most public schools are California (1438), New York (1108), Texas (999), New Jersey (853), Pennsylvania (852), Illinois (2595), Massachusetts (673), Ohio (654), Virginia (578), Wisconsin (571).
+
+![](figures/rich.png)
+
+### DonorsChoose Data
+
+***Description Table***
+|   | GRADE     | SUBJECT  | projects_0.0 | projects_1.0 | Classification    | price_0.0 | price_1.0 | students_0.0 | students_1.0 | projects_ratio | price_ratio | students_ratio |
+|---|-----------|----------|--------------|--------------|--------------|-----------|-----------|--------------|--------------|----------------|-------------|----------------|
+| 0 | PreK-2    | Language | 37869        | 264269       |   79.40%      | 542.94    | 503.54    | 38.94        | 39.37        | 6.98           | 0.93        | 1.01  
+| 1 | PreK-2    | Science  | 20137        | 114351       |   80.13%   |601.05    | 539.14    | 48.51        | 45.92        | 5.68           | 0.9         | 0.95           ||
+| 2 | PreK-2    | Others   | 24403        | 171853       |  77.10%      | 527.0     | 502.92    | 68.66        | 72.86        | 7.04           | 0.95        | 1.06           |
+| 3 | Primary   | Language | 38200        | 261611       |   78.02%      | 580.22    | 542.18    | 84.36        | 79.84        | 6.85           | 0.93        | 0.95           |
+| 4 | Primary   | Science  | 39155        | 212684       |  79.38%     |724.95    | 657.86    | 122.53       | 106.96       | 5.43           | 0.91        | 0.87           | 
+| 5 | Primary   | Others   | 31426        | 201932       |     77.10%      |662.9     | 634.02    | 183.21       | 172.62       | 6.43           | 0.96        | 0.94           |
+| 6 | Secondary | Language | 3954         | 43889        |    82.50%      |628.36    | 643.47    | 168.95       | 134.89       | 11.1           | 1.02        | 0.8            |
+| 7 | Secondary | Science  | 6547         | 55449        |    79.10%      |1030.85   | 814.34    | 158.4        | 133.78       | 8.47           | 0.79        | 0.84           | 
+| 8 | Secondary | Others   | 5589         | 65247        |    77.94%        |951.69    | 849.77    | 164.16       | 159.68       | 11.67          | 0.89        | 0.97           |
+
+<!-- [![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0) -->
+
+## Structured Analysis
+
+<!-- ![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png) -->
+
+
+## Unstructured Analysis
+
+### CNN Classification
+You can find the code at [this page](CNN_Wordcloud.ipynb).
+
+### BERT Sentence Classification
+
+
+
+
+<!-- [More detail is available here](./docs/DESCRIPTION.md) -->
+
+
+
+## Authors
+
+<!-- <a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
+</a> -->
+
+- **Zhen Yuan** - [GitHub](https://github.com/zyuan-mkt)
+
+## Acknowledgments
+
+- We appreciate DonorsChoose.org and Stanford SEDA for offering the data.
+
+
+
 # DonorsChoose Data
 
 ## Schools
