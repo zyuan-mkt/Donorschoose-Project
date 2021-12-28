@@ -57,18 +57,7 @@ The academic performance includes mathematics and Reading Language Arts (RLA) te
 
 #### Visualizations
 
-***Public School Distribution in US***: 69280 schools with coordinates
-
-
-![](figures/dis.png)
-
-***Poor Public School Distribution in US***: 12149 poor schools with coordinates
-![](figures/poor.png)
-
-***Rich Public School Distribution in US***: 16360 poor schools with coordinates
-
-![](figures/rich.png)
-
+See the graphs [here](seda-vis.md).
 
 
 ### DonorsChoose Data
@@ -137,8 +126,8 @@ to -0.00507 and standard deviation 0.146. However, math and rla scores could har
 ## Unstructured Analysis
 
 ### CNN Classification
-You can find the code at [this page](CNN_Wordcloud.ipynb).
-You can find the results at [this page](wordcloud.md).
+See the code [here](CNN_Wordcloud.ipynb).\
+See the results [here](wordcloud.md).
 ### BERT Sentence Classification
 Work in progress.
 
