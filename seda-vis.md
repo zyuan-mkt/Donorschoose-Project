@@ -38,4 +38,5 @@
 
 ### Education Gap within State (Test Scores Difference between Rich and Poor Schools)
 ***The 5 states with biggest education gap are Wisconsin, Louisiana, Connecticut, Alaska, and Maryland, while the 5 states with smallest education gap are Hawaii, Texas, Florida, Virginia, and Nevada. (from high to low)***
+
 ![](figures/gap.png)
