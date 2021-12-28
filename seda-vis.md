@@ -21,7 +21,7 @@
 ![](figures/frl.png)
 
 ### State Median Income (2005-2018 Average)
-***The 5 states with highest median income are Maryland ($73,700), New Jersey ($72,195), Hawaii ($70,765), Connecticut ($69,843), and Alaska ($69,777), while the 5 states with lowest median income (excluding Puerto Rico) are Kentucky ($43,643), Alabama ($43,603), Arkansas ($41,190), West Virginia ($40,363), and Mississippi ($39,191).***
+***The 5 states with highest median income are Maryland ($73,700), New Jersey ($72,195), Hawaii ($70,765), Connecticut ($69,843), and Alaska ($69,777), while the 5 states with lowest median income (excluding Puerto Rico) are Kentucky ($43,643), Alabama ($43,603), Arkansas ($41,190), West Virginia ($40,363), and Mississippi ($39,191). The correlation between state average FRL ratio and state average median income is -0.609.***
 
 ![](figures/inc.png)
 
