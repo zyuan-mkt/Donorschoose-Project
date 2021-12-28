@@ -129,7 +129,9 @@ to -0.00507 and standard deviation 0.146. However, math and rla scores could har
 See the code [here](CNN_Wordcloud.ipynb).\
 See the results [here](wordcloud.md).
 ### BERT Sentence Classification
-Work in progress.
+Work in progress.\
+Use this [method](https://huggingface.co/sentence-transformers).
+
 
 
 
