@@ -114,7 +114,13 @@ Our focus is on the project essays posted by teachers other than the donations. 
 | Others   | Secondary | 11292        | 1121        |   859.56 | 991.54   | 142| 166  |
 
 
+#### Resources
 
+***Resources Requested by Poor Schools***
+![](./figures/poor_resources.png)
+
+***Resources Requested by Rich Schools***
+![](./figures/rich_resources.png)
 
 
 ## Structured Analysis
