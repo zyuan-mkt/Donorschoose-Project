@@ -116,6 +116,9 @@ Our focus is on the project essays posted by teachers other than the donations. 
 
 #### Resources
 
+***Resource Type by Subject and Grade between Rich and Poor Schools***
+![](./figures/resources.png)
+
 ***Resources Requested by Poor Schools***
 ![](./figures/poor_resources.png)
 
