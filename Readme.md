@@ -25,6 +25,7 @@ This is the GitHub repository for Vishal Singh, Jeremy Yang and Zhen Yuan's pape
   - [Authors](#authors)
   - [Acknowledgments](#acknowledgments)
 ## Introduction
+The main goal of this research is to study the systematic difference in writing styles caused by socioeconomics and other factors. We are interested in what words and sentences are important for prediction, and in which direction. To this end, We utilize data from the SEDA and DonorsChoose.
 
 ## Data
 ### SEDA Data
