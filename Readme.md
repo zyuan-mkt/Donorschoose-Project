@@ -20,7 +20,7 @@ This is the GitHub repository for Vishal Singh, Jeremy Yang and Zhen Yuan's pape
     - [DonorsChoose Data](#donorschoose-data)
   - [Structured Analysis](#structured-analysis)
   - [Unstructured Analysis](#unstructured-analysis)
-    - [CNN Classification](#cnn-classification)
+    - [Interpretable CNN Classification](#interpretable-cnn-classification)
     - [BERT Sentence Classification](#bert-sentence-classification)
   - [Authors](#authors)
   - [Acknowledgments](#acknowledgments)
@@ -135,7 +135,7 @@ Results in preparation.
 
 ## Unstructured Analysis
 
-### CNN Classification
+### Interpretable CNN Classification
 See the code [here](CNN_Wordcloud.ipynb).
 
 #### WordClouds for Overall 
