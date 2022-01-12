@@ -206,6 +206,9 @@ See the code [here](CNN_Wordcloud.ipynb).
 ***Other Projects In Primary Schools (Accuracy 77.77%)***
 ![](./figures/oth_pri_b.png)
 
+#### WordClouds for Overall 
+Check the [AUC](https://github.com/zyuan-mkt/Donorschoose-Project/blob/main/roc.md).
+
 ### BERT Sentence Classification
 Work in progress.\
 Use this [method](https://huggingface.co/sentence-transformers).
