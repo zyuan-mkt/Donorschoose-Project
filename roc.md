@@ -1,31 +1,31 @@
 #### WordClouds for Overall 
 
 ***Language Projects in PreK Schools (Accuracy 79.40%)***
-![](./figures/prek_lan.png)
+![](./figures/roc_prek_lan.png)
 
 ***Science Projects in PreK Schools (Accuracy 80.13%)***
-![](./figures/prek_sci.png)
+![](./figures/roc_prek_sci.png)
 
 ***Other Projects in PreK Schools (Accuracy 77.10%)***
-![](./figures/prek_oth.png)
+![](./figures/roc_prek_oth.png)
 
 ***Language Projects In Primary Schools (Accuracy 78.02%)***
-![](./figures/pri_lan.png)
+![](./figures/roc_pri_lan.png)
 
 ***Science Projects In Primary Schools (Accuracy 79.38%)***
-![](./figures/pri_sci.png)
+![](./figures/roc_pri_sci.png)
 
 ***Other Projects In Primary Schools (Accuracy 77.10%)***
-![](./figures/pri_oth.png)
+![](./figures/roc_pri_oth.png)
 
 ***Language Projects In Secondary Schools (Accuracy 82.50%)***
-![](./figures/sec_lan.png)
+![](./figures/roc_sec_lan.png)
 
 ***Science Projects In Secondary Schools (Accuracy 79.10%)***
-![](./figures/sec_sci.png)
+![](./figures/roc_sec_sci.png)
 
 ***Other Projects In Secondary Schools (Accuracy 77.94%)***
-![](./figures/sec_oth.png)
+![](./figures/roc_sec_oth.png)
 
 
 #### WordClouds for States with Small Education Gap
