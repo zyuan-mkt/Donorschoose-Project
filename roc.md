@@ -1,4 +1,4 @@
-#### WordClouds for Overall 
+#### ROC for Overall 
 
 ***Language Projects in PreK Schools (Accuracy 79.40%)***
 ![](./figures/roc_prek_lan.png)
@@ -28,7 +28,7 @@
 ![](./figures/roc_sec_oth.png)
 
 
-#### WordClouds for States with Small Education Gap
+#### ROC for States with Small Education Gap
 ***Language Projects in PreK Schools (Accuracy 80.74%)***
 ![](./figures/roc_lan_pre_s.png)
 
@@ -47,7 +47,7 @@
 ***Other Projects In Primary Schools (Accuracy 79.63%)***
 ![](./figures/roc_oth_pri_s.png)
 
-#### WordClouds for States with Big Education Gap
+#### ROC for States with Big Education Gap
 ***Language Projects in PreK Schools (Accuracy 74.72%)***
 ![](./figures/roc_lan_pre_b.png)
 
